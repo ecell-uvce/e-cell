@@ -251,9 +251,8 @@ nav .nav-menu ul li {
   left: 450px;
   top: 10px;
   padding-bottom: 20px;
-  border-radius: 5px;
   cursor: zoom-in;
-  transition: 0.3s;
+  transition: 0.15s;
 }
 #myImg1 {
   max-width:200px;
@@ -261,9 +260,8 @@ nav .nav-menu ul li {
   left: 650px;
   top: 10px;
   padding-bottom: 20px;
-  border-radius: 5px;
   cursor:zoom-in;
-  transition: 0.3s;
+  transition: 0.15s;
 }
 
 #myImg:hover {opacity: 0.7;}
