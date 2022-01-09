@@ -333,7 +333,6 @@ nav .nav-menu ul li {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border-radius: 2rem;
 }
 .pres .team-member {
   margin: 2rem;
