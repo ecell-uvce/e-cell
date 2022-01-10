@@ -372,9 +372,10 @@ footer {
   font-size: 1.5rem;
 }
 .fa-arrow-up{
-  position: absolute;
+  /* position: absolute;
   bottom: -175rem;
-  right: 1rem; 
+  right: 1rem;  */
+  float: right;
 }
 
 
