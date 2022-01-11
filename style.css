@@ -206,7 +206,7 @@ nav .nav-menu ul li {
   flex-flow: row;
   margin: 0 3rem;
   align-items: center;
-  text-align: justify;
+  text-align: center;
 }
 .bull-market,
 .eureka {
