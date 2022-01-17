@@ -103,7 +103,7 @@ nav a img {
   top: 2rem;
   font-size: 1.5rem;
   margin-bottom: 0rem;
-  right: -15rem;
+  right: -80%;
   display: flex;
   padding: 0.5rem;
   background: black;
@@ -130,9 +130,6 @@ nav .nav-menu ul li {
 
 #socialicons {
   margin-top: 21rem;
-  
-}
-#socialicons {
   display: flex;
   flex-direction: row;
 }
@@ -168,9 +165,8 @@ nav .nav-menu ul li {
 .social ul li a .fa {
   margin: 2rem;
   margin-top: 2rem;
-  font-size: 2rem;
-  color: #86c232;
-  
+  font-size: 3rem;
+  color: #86c232;  
 }
 
 
@@ -246,9 +242,9 @@ nav .nav-menu ul li {
 
 /*team*/
 #myImg {
-  max-width:500px;
+  max-width:200px;
   position: relative;
-  left: 450px;
+  left: 25%;
   top: 10px;
   padding-bottom: 20px;
   cursor: zoom-in;
@@ -257,7 +253,7 @@ nav .nav-menu ul li {
 #myImg1 {
   max-width:200px;
   position: relative;
-  left: 650px;
+  left: 50%;
   top: 10px;
   padding-bottom: 20px;
   cursor:zoom-in;
@@ -375,16 +371,74 @@ footer {
   /* position: absolute;
   bottom: -175rem;
   right: 1rem;  */
+  padding-right: 0.5rem;
   float: right;
 }
 
 
 /*------------------------------------Tab view----------------------------------*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 650px) and (max-width: 1025px) {
+   /*-------------- Nav Bar ------------*/
   nav a img {
     height: 7rem;
     margin: 2rem;
   }
+  
+  .fa-bars {
+    margin-top: 0rem;
+    padding: 0rem;
+    top: 2rem;
+    right: 2rem;
+    z-index: 1;
+  }
+  nav .nav-menu {
+    z-index: 1;
+    position: fixed;
+    background: black;
+    height: 100vh;
+    width: 40vw;
+    right: 0rem;
+  }
+  nav .nav-menu ul {
+    margin-top: 3rem;
+  }
+  .fa-times {
+    display: inline-block;
+    top: 0.5rem;
+    font-size: 2.5rem;
+    right: -80%;
+  }
+  .socialmenu ul li a .fa {
+    font-size: 3rem;
+    color: #86c232;
+    padding: 0;
+    margin: 0;
+  }
+  #socialicons li{
+    padding: 5rem 1rem 0rem 1rem;
+    
+  }
+  #menuelements a{
+    font-size: 2.25rem;
+  }
+  /*-------- Landing Page -----------*/
+  .main {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .intro {
+    margin-top: 0;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 10rem;
+  }
+
   h1 {
     font-size: 3rem;
     margin-left: 0.75rem;
@@ -402,10 +456,72 @@ footer {
     font-size: 3rem;
     color: #86c232;
   }
+
+  /*--------------------about us---------------------*/
+
+  .events {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+  .events2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    text-align: center;
+  }
+  .bull-market,
+  .eureka {
+    padding: 0.5rem;
+  }
+  .talks,
+  .workshops, 
+  .innovation {
+    width: 33%;
+  }
+  .events2 ul li {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+  }
+
+    /*------------- Team ------------*/
+  #myImg {
+    max-width:200px;
+    position: relative;
+    left: 20%;
+    top: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  #myImg1 {
+    max-width:200px;
+    position: relative;
+    left: 40%;
+    top: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+     /*------------ Footer ----------------*/
+  .fa-arrow-up{
+    /* position: absolute;
+    bottom: -175rem;
+    right: 1rem;  */
+    padding-right: 0.5rem;
+    float: right;
+  }
+  footer h4{
+    font-size: 1.25rem;
+  }
 }
 /*------------------------------------mobile view----------------------------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 649px) {
   nav a img {
     height: 5rem;
     margin: 1rem;
@@ -436,7 +552,7 @@ footer {
     display: inline-block;
     top: 0.3rem;
     font-size: 2rem;
-    right: -9rem;
+    right: -70%;
   }
   .socialmenu ul li a .fa {
     font-size: 1.5rem;
@@ -558,7 +674,7 @@ footer {
     #myImg {
       max-width:100px;
       position: relative;
-      left: 2.50rem;
+      left: 15%;
       top: 10px;
       padding-bottom: 20px;
       border-radius: 5px;
@@ -568,7 +684,7 @@ footer {
     #myImg1 {
       max-width:100px;
       position: relative;
-      left: 4rem;
+      left: 30%;
       top: 10px;
       padding-bottom: 20px;
       border-radius: 5px;
@@ -608,11 +724,13 @@ footer {
   }
 
   .fa-arrow-up{
-    position: relative;
+    /*position: relative;
     bottom: 2rem;
     left: 9rem;
     right: 1rem;
-
+    */
+     padding-right: 0.5rem;
+     float: right;
   }
   footer h4 {
     font-size: 0.7rem;
