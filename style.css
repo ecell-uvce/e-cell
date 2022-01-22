@@ -355,10 +355,13 @@ nav .nav-menu ul li {
   color: black;
   font-weight: bold;
   font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
 }
 .post {
   color: black;
   font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
 /*footer*/
