@@ -171,6 +171,7 @@ nav .nav-menu ul li {
 
 
 .social ul li a .fa:hover {
+  transition: 0.3s;
   color: white;
 }
 
