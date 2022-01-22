@@ -679,7 +679,6 @@ footer {
       left: 15%;
       top: 10px;
       padding-bottom: 20px;
-      border-radius: 5px;
       cursor: pointer;
       transition: 0.3s;
     }
@@ -689,7 +688,6 @@ footer {
       left: 30%;
       top: 10px;
       padding-bottom: 20px;
-      border-radius: 5px;
       cursor: pointer;
       transition: 0.3s;
     }
