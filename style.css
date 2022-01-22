@@ -347,8 +347,8 @@ nav .nav-menu ul li {
 .member-desc {
   text-align: center;
   background-color: #6b6e70;
-  color: whitesmoke;
-  border-radius: 15px 3px;
+  color: white;
+  /* border-radius: 15px 3px; */
 }
 .name {
   color: black;
