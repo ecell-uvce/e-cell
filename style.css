@@ -177,7 +177,6 @@ nav .nav-menu ul li {
 }
 
 
-
 /*about us*/
 .about-us {
   text-align: justify;
@@ -228,7 +227,7 @@ nav .nav-menu ul li {
 /*gallery*/
 
 .gallery {
-  background: #222629;
+  background: black;
 }
 .Gallery {
   display: grid;
@@ -312,8 +311,7 @@ nav .nav-menu ul li {
   top: 15px;
   right: 35px;
   color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 60px;
   transition: 0.3s;
 }
 
@@ -339,16 +337,16 @@ nav .nav-menu ul li {
   margin: 0.5rem;
 }
 .pres .team-member img {
-  height: 200px;
+  height: 240px;
 }
 .container-team .team-member img {
-  height: 170px;
+  height: 210px;
 }
 
 .member-desc {
   text-align: center;
   background-color: #6b6e70;
-  color: white;
+  color: black;
   /* border-radius: 15px 3px; */
 }
 .name {
@@ -378,6 +376,16 @@ footer {
   right: 1rem;  */
   padding-right: 0.5rem;
   float: right;
+}
+#last {
+  text-align: center;
+  font-size: 1rem;
+}
+footer h4 a {
+  color: #86c232;
+}
+footer h4 {
+  font-size: 1rem;
 }
 
 
@@ -677,7 +685,7 @@ footer {
   
   @media only screen and (max-width: 700px){
     #myImg {
-      max-width:100px;
+      max-width:200px;
       position: relative;
       left: 15%;
       top: 10px;
@@ -686,7 +694,7 @@ footer {
       transition: 0.3s;
     }
     #myImg1 {
-      max-width:100px;
+      max-width:200px;
       position: relative;
       left: 30%;
       top: 10px;
@@ -736,7 +744,8 @@ footer {
      float: right;
   }
   footer h4 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    text-align: left;
   }
   }
   }
