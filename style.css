@@ -157,7 +157,7 @@ nav .nav-menu ul li {
   text-align: center;
   display: flex;
   flex-direction: row;
-  bottom: 0rem;
+  bottom: 0;
   justify-content: center;
   background-color: #474B4f;
 }
@@ -172,7 +172,7 @@ nav .nav-menu ul li {
 
 .social ul li a .fa:hover {
   transition: 0.3s;
-  color: rgb(76, 36, 36);
+  color: white;
 }
 
 
