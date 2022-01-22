@@ -140,8 +140,8 @@ nav .nav-menu ul li {
 }
 .socialmenu ul li a .fa:hover {
   color: white;
-}/*
-.social ul {
+}
+/*.social ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -150,11 +150,11 @@ nav .nav-menu ul li {
 }*/
 .social ul {
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   left: 0;
   right: 0;
-  text-align: center;
+  /* text-align: center; */
   display: flex;
   flex-direction: row;
   bottom: 0;
