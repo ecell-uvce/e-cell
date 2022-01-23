@@ -26,7 +26,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   padding: 0.5rem;
   text-align: center;
-  margin: 0 0;
+  margin: 1rem 0 1rem 0;
 }
 h3 {
   font-family: "Montserrat", sans-serif;
@@ -47,7 +47,7 @@ p {
   letter-spacing: 1px;
 }
 /*----------------------------desktop view--------------------------*/
-/* landing page styling*/
+/* landing page styling (desktop view) */
 .landing {
   background-color: #222629;
   height: 100vh;
@@ -142,13 +142,7 @@ nav .nav-menu ul li {
 .socialmenu ul li a .fa:hover {
   color: white;
 }
-/*.social ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 15rem;
-  background-color: #474B4f;
-}*/
+
 .social ul {
   /* position: absolute; */
   /* margin-left: auto;
@@ -224,7 +218,7 @@ nav .nav-menu ul li {
   letter-spacing: 1px;
 }
 
-/*gallery*/
+/**********gallery (desktop view) ****************/
 
 .gallery {
   background: black;
@@ -241,7 +235,7 @@ nav .nav-menu ul li {
   width: 100%;
 }
 
-/*team*/
+/************** team (desktop view) *******************/
 #myImg {
   max-width:300px;
   position: relative;
@@ -347,7 +341,7 @@ nav .nav-menu ul li {
   text-align: center;
   background-color: #6b6e70;
   color: black;
-  /* border-radius: 15px 3px; */
+  border-radius: 15px 3px;
 }
 .name {
   color: black;
@@ -362,7 +356,7 @@ nav .nav-menu ul li {
   font-style: italic;
 }
 
-/*footer*/
+/***********************footer (desktop view) *******************/
 footer {
   background-color: #222629;
   /*display: flex;*/
@@ -391,7 +385,7 @@ footer h4 {
 
 /*------------------------------------Tab view----------------------------------*/
 @media screen and (min-width: 650px) and (max-width: 1025px) {
-   /*-------------- Nav Bar ------------*/
+   /*-------------- Nav Bar (tab view) ------------*/
   nav a img {
     height: 7rem;
     margin: 2rem;
@@ -434,7 +428,7 @@ footer h4 {
   #menuelements a{
     font-size: 2.25rem;
   }
-  /*-------- Landing Page -----------*/
+  /*-------- Landing Page (tab view) -----------*/
   .main {
     margin: 0 auto 0 auto;
     width: 100%;
@@ -470,7 +464,7 @@ footer h4 {
     color: #86c232;
   }
 
-  /*--------------------about us---------------------*/
+  /*--------------------about us (tab view) ---------------------*/
 
   .events {
     display: flex;
@@ -499,7 +493,7 @@ footer h4 {
     letter-spacing: 1px;
   }
 
-    /*------------- Team ------------*/
+    /*------------- Team (tab view) ------------*/
   #myImg {
     max-width:200px;
     position: relative;
@@ -520,7 +514,7 @@ footer h4 {
     cursor: pointer;
     transition: 0.3s;
   }
-     /*------------ Footer ----------------*/
+     /*------------ Footer (tab view) ----------------*/
   .fa-arrow-up{
     /* position: absolute;
     bottom: -175rem;
