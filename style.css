@@ -46,8 +46,11 @@ p {
   padding: 0.5rem;
   letter-spacing: 1px;
 }
-/*----------------------------desktop view--------------------------*/
-/* landing page styling (desktop view) */
+
+/*----------------------------desktop view----------------------------------*/
+
+/*------------------------ landing page styling (desktop view) ----------------*/
+
 .landing {
   background-color: #222629;
   height: 100vh;
@@ -171,7 +174,7 @@ nav .nav-menu ul li {
 }
 
 
-/*about us*/
+/*------------------------ about us (desktop view) --------------------------------*/
 .about-us {
   text-align: justify;
   padding: 1rem;
@@ -218,7 +221,7 @@ nav .nav-menu ul li {
   letter-spacing: 1px;
 }
 
-/**********gallery (desktop view) ****************/
+/*------------------------ gallery (desktop view) ------------------------*/
 
 .gallery {
   background: black;
@@ -235,7 +238,7 @@ nav .nav-menu ul li {
   width: 100%;
 }
 
-/************** team (desktop view) *******************/
+/*------------------------ team (desktop view) ------------------------*/
 #myImg {
   max-width:300px;
   position: relative;
@@ -356,7 +359,7 @@ nav .nav-menu ul li {
   font-style: italic;
 }
 
-/***********************footer (desktop view) *******************/
+/*---------------- footer (desktop view) ----------------*/
 footer {
   background-color: #222629;
   /*display: flex;*/
@@ -428,7 +431,7 @@ footer h4 {
   #menuelements a{
     font-size: 2.25rem;
   }
-  /*-------- Landing Page (tab view) -----------*/
+  /*---------------- Landing Page (tab view) -------------------*/
   .main {
     margin: 0 auto 0 auto;
     width: 100%;
@@ -629,7 +632,7 @@ footer h4 {
     font-size: 2rem;
     text-align: center;
   }
-  /*--------------------about us---------------------*/
+  /*--------------------about us (mobile view) ---------------------*/
 
   .events {
     display: flex;
@@ -658,7 +661,7 @@ footer h4 {
     letter-spacing: 1px;
   }
 
-  /*--------------------gallery------------*/
+  /*--------------------gallery (mobile view)---------------------*/
 
   .container {
     display: flex;
@@ -675,7 +678,7 @@ footer h4 {
     padding: 0.2rem;
   }
 
-  /*----------------------team------------------------*/
+  /*----------------------team (mobile view) ------------------------*/
   
   @media only screen and (max-width: 700px){
     #myImg {
@@ -716,7 +719,7 @@ footer h4 {
     font-size: 0.7rem;
   }
 
-  /*------------------footer---------------------*/
+  /*------------------footer (mobile view) ---------------------*/
 
   footer {
     background-color: #222629;
