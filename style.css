@@ -54,7 +54,7 @@ p {
   position: relative;
 }
 #particles-js{
-  height: 87vh;
+  height: 95vh;
   width: 98vw;
   position: absolute;
 }
@@ -86,7 +86,7 @@ nav a img {
   height: 80vh;
 }
 .intro {
-  margin-top: 3rem;
+  margin-top: 5rem;
   align-items: center;
 }
 .nav-menu {
