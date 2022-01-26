@@ -250,6 +250,7 @@ nav .nav-menu ul li {
 #myImg {
   max-width:400px;
   position: relative;
+  margin: 0.5rem;
   /* left: 25%;
   top: 10px; */
   /* padding-bottom: 20px; */
@@ -259,6 +260,7 @@ nav .nav-menu ul li {
 #myImg1 {
   max-width:400px;
   position: relative;
+  margin: 0.5rem;
   /* left: 50%;
   top: 10px; */
   /* padding-bottom: 20px; */
@@ -267,14 +269,15 @@ nav .nav-menu ul li {
 }
 #myImg2 {
   max-width: 400px;
+  margin: 0.5rem;
   /* padding-bottom: 20px; */
   cursor:zoom-in;
   transition: 0.1s;
 }
 
-#myImg:hover {opacity: 0.7;}
-#myImg1:hover {opacity: 0.7;}
-#myImg2:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.5;}
+#myImg1:hover {opacity: 0.5;}
+#myImg2:hover {opacity: 0.5;}
 
 .modal {
   display: none; 
@@ -522,6 +525,7 @@ footer h4 {
   #myImg {
     max-width:200px;
     position: relative;
+    margin: 0.5rem;
     /* left: 20%;
     top: 10px;
     padding-bottom: 20px;
@@ -532,6 +536,7 @@ footer h4 {
   #myImg1 {
     max-width:200px;
     position: relative;
+    margin: 0.5rem;
     /* left: 40%;
     top: 10px;
     padding-bottom: 20px;
@@ -542,6 +547,7 @@ footer h4 {
   #myImg2 {
     max-width:200px;
     position: relative;
+    margin: 0.5rem;
     /* left: 40%;
     top: 10px;
     padding-bottom: 20px;
@@ -714,21 +720,40 @@ footer h4 {
   /*----------------------team (mobile view) ------------------------*/
   
   @media only screen and (max-width: 700px){
+    .former-pics {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem;
+    }
     #myImg {
       max-width:200px;
       position: relative;
-      left: 15%;
-      top: 10px;
-      padding-bottom: 20px;
+      margin: 0.5rem;
+      /* left: 15%;
+      top: 10px; */
+      /* padding-bottom: 20px; */
       cursor: pointer;
       transition: 0.3s;
     }
     #myImg1 {
       max-width:200px;
       position: relative;
-      left: 30%;
-      top: 10px;
-      padding-bottom: 20px;
+      margin: 0.5rem;
+      /* left: 30%;
+      top: 10px; */
+      /* padding-bottom: 20px; */
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    #myImg2 {
+      max-width:200px;
+      position: relative;
+      margin: 0.5rem;
+      /* left: 30%;
+      top: 10px; */
+      /* padding-bottom: 20px; */
       cursor: pointer;
       transition: 0.3s;
     }
