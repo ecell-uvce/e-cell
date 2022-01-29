@@ -36,7 +36,7 @@ h3 {
   color: #86c232;
 }
 h4 {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   margin: 5px 3px;
   font-size: 0.8rem;
 }
@@ -132,11 +132,6 @@ nav .nav-menu ul li {
   background-color: #222629;
 }
 
-#socialicons {
-  margin-top: 21rem;
-  display: flex;
-  flex-direction: row;
-}
 .socialmenu ul li a .fa {
   font-size: 2rem;
   color: #86c232;
@@ -145,34 +140,6 @@ nav .nav-menu ul li {
 .socialmenu ul li a .fa:hover {
   color: white;
 }
-
-.social ul {
-  /* position: absolute; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  left: 0;
-  right: 0;
-  /* text-align: center; */
-  display: flex;
-  flex-direction: row;
-  bottom: 0;
-  justify-content: right;
-  background-color: #222629;
-}
-
-.social ul li a .fa {
-  margin: 0 3rem 1rem 2rem;
-  /* margin-top: 2rem; */
-  font-size: 3rem;
-  color: #86c232;  
-}
-
-
-.social ul li a .fa:hover {
-  transition: 0.3s;
-  color: white;
-}
-
 
 /*------------------------ about us (desktop view) --------------------------------*/
 .about-us {
@@ -385,6 +352,38 @@ footer {
   padding-top: -2px;
   font-size: 1.5rem;
 }
+#socialicons {
+  margin-top: 21rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.social ul {
+  /* position: absolute; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* left: 0;
+  right: 0; */
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  justify-content: right;
+  background-color: #222629;
+}
+
+.social ul li a .fa {
+  margin: 0 3rem 1rem 2rem;
+  /* margin-top: 2rem; */
+  font-size: 3rem;
+  color: #86c232;  
+}
+
+
+.social ul li a .fa:hover {
+  transition: 0.3s;
+  color: white;
+}
 .fa-arrow-up{
   /* position: absolute;
   bottom: -175rem;
@@ -392,21 +391,30 @@ footer {
   padding-right: 0.5rem;
   float: right;
 }
+.social {
+  margin-top: 0rem;
+}
 #last {
   text-align: center;
   font-size: 1rem;
 }
-footer h4 a {
+
+footer p a {
   color: #86c232;
 }
-footer h4 {
-  font-size: 1rem;
-  margin: auto;
+footer p {
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 footer h3{
   margin: 1rem 0.5rem 1rem 0.5rem;
   font-size: 2.5rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline;
+}
+#follow {
+  text-align: right;
 }
 
 /*------------------------------------Tab view----------------------------------*/
