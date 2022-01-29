@@ -156,7 +156,7 @@ nav .nav-menu ul li {
   display: flex;
   flex-direction: row;
   bottom: 0;
-  justify-content: center;
+  justify-content: right;
   background-color: #222629;
 }
 
@@ -401,8 +401,13 @@ footer h4 a {
 }
 footer h4 {
   font-size: 1rem;
+  margin: auto;
 }
-
+footer h3{
+  margin: 1rem 0.5rem 1rem 0.5rem;
+  font-size: 2.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /*------------------------------------Tab view----------------------------------*/
 @media screen and (min-width: 650px) and (max-width: 1025px) {
