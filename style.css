@@ -370,7 +370,13 @@ footer {
   bottom: 0;
   justify-content: right;
   background-color: #222629;
+  position: relative;
+  vertical-align: text-top;
 }
+
+/* .social {
+  vertical-align: text-top;
+} */
 
 .social ul li a .fa {
   margin: 0 3rem 1rem 2rem;
@@ -391,9 +397,7 @@ footer {
   padding-right: 0.5rem;
   float: right;
 }
-.social {
-  margin-top: 0rem;
-}
+
 #last {
   text-align: center;
   font-size: 1rem;
@@ -402,20 +406,30 @@ footer {
 footer p a {
   color: #86c232;
 }
+
 footer p {
   font-size: 1.2rem;
-  margin: 1rem;
+  margin: 0.5rem 0rem 0.5rem 2rem;
   font-family: "Poppins", sans-serif;
 }
-footer h3{
-  margin: 1rem 0.5rem 1rem 0.5rem;
-  font-size: 2.5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+footer h3 {
+  margin: 2rem 0.5rem 1rem 0.5rem;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
   display: inline;
+  color: white;
 }
+
+#contact {
+  margin-left: 2.8rem;
+}
+
 #follow {
-  text-align: right;
+  margin-left: 45rem;
 }
+
+
 
 /*------------------------------------Tab view----------------------------------*/
 @media screen and (min-width: 650px) and (max-width: 1025px) {
