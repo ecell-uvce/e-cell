@@ -349,14 +349,8 @@ nav .nav-menu ul li {
 footer {
   background-color: #222629;
   /*display: flex;*/
-  padding: 5px;
-  padding-top: -2px;
+  padding: -5rem;
   font-size: 1.5rem;
-}
-#socialicons {
-  margin-top: 21rem;
-  display: flex;
-  flex-direction: row;
 }
 
 .social ul {
@@ -369,7 +363,7 @@ footer {
   display: flex;
   flex-direction: row;
   bottom: 0;
-  justify-content: right;
+  justify-content: left;
   background-color: #222629;
   position: relative;
   vertical-align: text-top;
@@ -379,15 +373,14 @@ footer {
   vertical-align: text-top;
 } */
 
-.social ul li a .fa {
-  margin: 0 3rem 1rem 2rem;
+.fa{
+  margin: 0 2rem 1rem 0;
   /* margin-top: 2rem; */
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #86c232;  
 }
 
-
-.social ul li a .fa:hover {
+.fa:hover {
   transition: 0.3s;
   color: white;
 }
@@ -395,7 +388,7 @@ footer {
   /* position: absolute;
   bottom: -175rem;
   right: 1rem;  */
-  padding-right: 0.5rem;
+  padding: 1rem 0.3rem;
   float: right;
 }
 
@@ -404,33 +397,74 @@ footer {
   font-size: 1rem;
 }
 
-footer p a {
+.para {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.content{
+  font-size: 1rem;
+}
+footer h2{
+  text-align: left;
+}
+
+/*----------Content Display Footer (Desktop)----------*/
+.column {
+  padding:0 0 0 10rem;
+  float: left;
+  text-align: left;
+  width: 50%;
+  background-color: #222629;
+}
+
+.column1 {
+  float: left;
+  text-align: left;
+  width: 50%;
+  background-color: #222629;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display:flexbox;
+  clear: both;
+}
+
+/*----------Tooltip Footer (Desktop)----------*/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: white;
   color: #86c232;
-}
-
-footer p {
+  text-align: center;
+  border-radius: 25%;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
   font-size: 1.2rem;
-  margin: 0.5rem 0rem 0.5rem 2rem;
-  font-family: "Poppins", sans-serif;
 }
 
-footer h3 {
-  margin: 2rem 0.5rem 1rem 0.5rem;
-  font-size: 3rem;
-  font-family: "Poppins", sans-serif;
-  display: inline;
-  color: white;
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
-#contact {
-  margin-left: 2.8rem;
+.tooltip .tooltiptext {
+  opacity: 0;
+  transition: opacity 1s;
 }
 
-#follow {
-  margin-left: 45rem;
+.tooltip:hover .tooltiptext {
+  opacity: 1;
 }
-
-
 
 /*------------------------------------Tab view----------------------------------*/
 @media screen and (min-width: 650px) and (max-width: 1025px) {
@@ -592,8 +626,35 @@ footer h3 {
     padding-right: 0.5rem;
     float: right;
   }
+  
+  .fa,.social ul li a .fa {
+    margin: 0 1rem 1rem 0;
+    font-size: 2rem;
+    color: #86c232;  
+  }
   footer h4{
     font-size: 1.25rem;
+  }
+  #contact,#follow{
+    text-align: left;
+    font-size: 1.75rem;
+  }
+  .para {
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .content{
+    font-size: 1rem;
+  }
+
+  /*----------Content Display Footer (Tab)----------*/
+  .column,.column1{
+    padding:0 0 0 0;
+    text-align: left;
+    width: 50%;
+  }
+  .column{
+    padding:0 0 0 5rem;
   }
 }
 /*------------------------------------mobile view----------------------------------*/
@@ -786,49 +847,73 @@ footer h3 {
       transition: 0.3s;
     }
     .modal-content {
-    width: 100%;
-  }
-  .team-member {
-    margin: -20px;
-  }
-  .pres {
-    justify-content: space-evenly;
-    flex-flow: row;
-  }
-  .container-team .team-member img,
-  .pres .team-member img {
-    height: 130px;
-    width: 130px;
-  }
-  .member-desc .name,
-  .post {
-    font-size: 0.7rem;
-  }
+      width: 100%;
+    }
+    .team-member {
+     margin: -20px;
+    }
+   .pres {
+      justify-content: space-evenly;
+      flex-flow: row;
+    }
+    .container-team .team-member img,
+    .pres .team-member img {
+      height: 130px;
+      width: 130px;
+    }
+    .member-desc .name,
+    .post {
+      font-size: 0.7rem;
+    }
 
-  /*------------------footer (mobile view) ---------------------*/
+    /*------------------footer (mobile view) ---------------------*/
 
-  footer {
-    background-color: #222629;
-    position: relative;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1rem;
-    justify-content: space-between;
+    footer {
+      background-color: #222629;
+      position: relative;
+      flex-direction: column;
+      text-align: center;
+      font-size: 1rem;
+      justify-content: space-between;
 
-  }
+    }
 
-  .fa-arrow-up{
-    /*position: relative;
-    bottom: 2rem;
-    left: 9rem;
-    right: 1rem;
-    */
-     padding-right: 0.5rem;
-     float: right;
+    .fa-arrow-up{
+      /*position: relative;
+      bottom: 2rem;
+      left: 9rem;
+      right: 1rem;
+      */
+      padding-right: 0.5rem;
+      float: right;
+    }
+    .fa,.social ul li a .fa {
+      margin: 0 2rem 1rem 0;
+      /* margin-top: 2rem; */
+      font-size: 2rem;
+      color: #86c232;  
+    }
+    footer h4 {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    #contact,#follow{
+      text-align: center;
+      font-size: 1.75rem;
+    }
+    .para {
+      font-size: 1.3rem;
+      font-family: "Poppins", sans-serif;
+    }
+    .content{
+      font-size: 1rem;
+    }
+
+    /*----------Content Display Footer (Mobile)----------*/
+    .column,.column1{
+      padding:0 0 0 0;
+      text-align: center;
+      width: 100%;
+    }
   }
-  footer h4 {
-    font-size: 0.9rem;
-    text-align: left;
-  }
-  }
-  }
+}
