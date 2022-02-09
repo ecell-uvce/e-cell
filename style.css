@@ -402,7 +402,7 @@ footer {
   font-family: "Poppins", sans-serif;
 }
 .content{
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 footer h2{
   text-align: left;
@@ -410,7 +410,7 @@ footer h2{
 
 /*----------Content Display Footer (Desktop)----------*/
 .column {
-  padding:0 0 0 10rem;
+  padding:0 0 0 15rem;
   float: left;
   text-align: left;
   width: 50%;
@@ -427,7 +427,7 @@ footer h2{
 /* Clear floats after the columns */
 .row:after {
   content: "";
-  display:flexbox;
+  display: flexbox;
   clear: both;
 }
 
@@ -435,7 +435,6 @@ footer h2{
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px none black;
 }
 
 .tooltip .tooltiptext {
@@ -449,7 +448,7 @@ footer h2{
   position: absolute;
   z-index: 1;
   top: 125%;
-  margin-left: -30px;
+  margin-left: -20px;
   font-size: 1.2rem;
 }
 
@@ -878,6 +877,10 @@ footer h2{
 
     }
 
+    #last {
+      font-size: 1rem;
+    }
+
     .fa-arrow-up{
       /*position: relative;
       bottom: 2rem;
@@ -913,7 +916,6 @@ footer h2{
     .tooltip {
       position: relative;
       display: inline-block;
-      border-bottom: 1px none black;
     }
 
     .tooltip .tooltiptext {
@@ -923,12 +925,12 @@ footer h2{
       font-weight: 600;
       text-align: center;
       border-radius: 1rem;
-      padding: 8px;
+      padding: 6px;
       position: absolute;
       z-index: 1;
       top: 125%;
-      margin-left: -30px;
-      font-size: 1.2rem;
+      margin-left: -110px;
+      font-size: 1.1rem;
     }
 
     .tooltip:hover .tooltiptext {
